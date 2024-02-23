@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Following tutorial [here](https://www.youtube.com/watch?v=fmyvWz5TUWg)
 
-Things you may want to cover:
+Commands:
 
-* Ruby version
+`rails s` starts the server
 
-* System dependencies
+`rails g` generator command
 
-* Configuration
+`rails g scaffold` generates a db table
+> `rails g scaffold friends first_name:string last_name:string` generates a db table named friends that has a first_name property and last_name property that are both string types.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`rails db:migrate` pushes migration into db to 'make it live' and create schema.
