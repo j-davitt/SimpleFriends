@@ -12,3 +12,6 @@ Commands:
 > `rails g scaffold friends first_name:string last_name:string` generates a db table named friends that has a first_name property and last_name property that are both string types.
 
 `rails db:migrate` pushes migration into db to 'make it live' and create schema.
+
+`bundle install` generally used to install gems that are in gemfile.
+
