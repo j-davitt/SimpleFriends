@@ -15,3 +15,4 @@ Commands:
 
 `bundle install` generally used to install gems that are in gemfile.
 
+`rails routes` shows all the routes for the application
