@@ -16,3 +16,5 @@ Commands:
 `bundle install` generally used to install gems that are in gemfile.
 
 `rails routes` shows all the routes for the application
+
+`rails g migration add_user_id_to_friends user_id:integer:index` adds a user_id property to friends table that is an integer and given an index
