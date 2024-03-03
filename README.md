@@ -18,3 +18,6 @@ Commands:
 `rails routes` shows all the routes for the application
 
 `rails g migration add_user_id_to_friends user_id:integer:index` adds a user_id property to friends table that is an integer and given an index
+
+embedded ruby can be done on the page or referenced from controller.
+
